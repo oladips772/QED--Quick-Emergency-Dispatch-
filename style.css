@@ -198,3 +198,32 @@ footer .exploreBtn.active {
 footer .profileBtn.active {
   color: green;
 }
+
+.profile {
+  flex-direction: column;
+}
+
+/* profile */
+.profile div {
+  margin: 15px 0px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile div button {
+  width: 43%;
+  height: 45px;
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.profile span {
+  font-size: 18px;
+}
