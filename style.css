@@ -96,6 +96,8 @@ section .action_container {
 .explore {
   height: 100vh;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
 }
 
 .profile {
@@ -138,6 +140,35 @@ section footer {
 
 footer h4 {
   cursor: pointer;
+}
+
+.explore .explore_item {
+  padding: 5px;
+  margin: 6px 5px;
+  cursor: pointer;
+  height: 45px;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.explore_item:hover {
+  background-color: rgba(102, 164, 102, 0.423);
+}
+
+.explore .explore_item i {
+  margin-right: 6px;
+  font-size: 17px;
+  margin-bottom: 3px;
+  color: green;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: rgba(102, 164, 102, 0.423);
+}
+
+.explore_item span {
+  font-size: 20px;
 }
 
 footer div {
